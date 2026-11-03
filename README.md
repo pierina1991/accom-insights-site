@@ -14,4 +14,4 @@ Missing articles that were written in earlier runs but never preserved (rewrite 
 ## Deploy status notes (2026-11-03)
 - Netlify site id: 5ab32715-5c57-4101-95e8-6424e0111ddf. Continuous deployment from this repo, branch main.
 - GitHub connector (Claude Github MCP Connector) is installed on this repo with read/write access.
-- Netlify note: on the private-repo plan only commits from the account owner (pierinamerinoa) may trigger builds; if a push does not appear in Deploys, check the contributor limit.
+- Repo made public 2026-11-03 because Netlify's free plan blocks builds of private-repo commits from unrecognized contributors (the connector commits as pierina1991, Netlify is linked to pierinamerinoa). Never put secrets in this repo.
